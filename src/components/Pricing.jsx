@@ -85,9 +85,9 @@ function Plan({ name, price, description, href, features, featured = false }) {
         variant={featured ? 'solid' : 'outline'}
         color="white"
         className="mt-8"
-        aria-label={`Get started with the ${name} plan for ${price}`}
+        aria-label={`Accede al plan ${name} por el precio ${price} completando los siguientes datos`}
       >
-        Get started
+        Acceder
       </Button>
     </section>
   )
@@ -110,51 +110,48 @@ export function Pricing() {
             adecuados para vos.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            diferentes opciones para cada necesidad
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            name="Bronce"
+            price="$2.750 ARS"
+            description="lo justo y necesario para tu salud"
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Descripcion 1',
+              'Descripcion 2',
+              'Descripcion 3',
+              'Descripcion 4',
+              'Descripcion 5',
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
+            name="Plata"
+            price="$3.800"
+            description="Tu salud y mas"
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Descripcion 1',
+              'Descripcion 2',
+              'Descripcion 3',
+              'Descripcion 4',
+              'Descripcion 5',
             ]}
           />
           <Plan
             name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
+            price="$4.970"
+            description="Salud, belleza y mas"
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Descripcion 1',
+              'Descripcion 2',
+              'Descripcion 3',
+              'Descripcion 4',
+              'Descripcion 5',
             ]}
           />
         </div>

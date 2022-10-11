@@ -74,11 +74,11 @@ export function PrimaryFeatures() {
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             Llamando al doctor
           </h2>
-          <p className="mt-6 text-lg tracking-tight text-blue-100">
+          <p className="mt-12 text-lg tracking-tight text-blue-100">
           El servicio que MedkiT dispone para vos, donde vas a encontrar atención médica por videollamada las 24 horas, todos los días del año.
           </p>
           <div classnName="container mx-auto sm:px-6 lg:px-8">
-          <p className="mt-8 text-lg tracking-tight md:text-right md:flex  text-blue-100">
+          <p className="mt-6 text-lg tracking-tight md:flex  text-blue-100">
           Un servicio de atención médica por videollamada las 24 horas, todos los días del año.
 ¿Querés contratar Llamando al Doctor?          </p>
           <img className="mt-8 items-center flex -z-10" src="/homeapp.png" alt="" />
