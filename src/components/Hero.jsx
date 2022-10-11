@@ -12,11 +12,11 @@ import logoTuple from '@/images/logos/tuple.svg'
 export function Hero() {
   return (
     <Container className="pt-20 pb-16 text-center lg:pt-32">
-      <div class="absolute inset-0">
-              <img class="h-full w-full object-cover blur-sm" src="/medics.png" alt="People working on laptops"/>
-              <div class="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
+      <div className="absolute inset-0">
+              <img className="h-full w-full object-cover blur-sm" src="/medics.png" alt="People working on laptops"/>
+              <div className="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
             </div>
-            <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
+            <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
               <img src="/Medkit.png" className='mx-auto max-w-2xl top-0 mb-12 -mt-32 w-80' alt="Medkit logo" />
             <h1 className="mx-auto max-w-4xl font-display text-5xl z-10 font-medium tracking-tight text-white sm:text-7xl">
         Tu salud{' '}
