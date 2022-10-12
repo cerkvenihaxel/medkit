@@ -15,9 +15,12 @@ export default function Filosophy() {
               <div className="mt-6">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">Nuestra filosofia</h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+<<<<<<< HEAD
+                  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+=======
+                  Texto texto texto texto texto Texto texto texto texto texto Texto texto texto texto texto
+                  Texto texto texto texto texto Texto texto texto texto texto Texto texto texto texto texto
+>>>>>>> e21a43b (Actualizacion de textos v2)
                 </p>
              
               </div>
@@ -26,20 +29,24 @@ export default function Filosophy() {
               <blockquote>
                 <div>
                   <p className="text-base text-gray-500">
-                    &ldquo;Cras velit quis eros eget rhoncus lacus ultrices sed diam. Sit orci risus aenean curabitur
-                    donec aliquet. Mi venenatis in euismod ut.&rdquo;
+                    &ldquo;Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+                    Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto &rdquo;
                   </p>
                 </div>
                 <footer className="mt-3">
                   <div className="flex items-center space-x-3">
                     <div className="flex-shrink-0">
+<<<<<<< HEAD
+
+=======
                       <img
                         className="h-6 w-6 rounded-full"
-                        src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                        alt=""
+                        src="https://www.intramed.net/UserFiles/vinetas/95357.jpg"
+                        alt="Image"
                       />
+>>>>>>> e21a43b (Actualizacion de textos v2)
                     </div>
-                    <div className="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
+                    <div className="text-base font-medium text-gray-700">Juana, cofundadora</div>
                   </div>
                 </footer>
               </blockquote>
@@ -48,9 +55,15 @@ export default function Filosophy() {
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
               <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-1.jpg"
+<<<<<<< HEAD
+                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-70 lg:w-auto lg:w-auto lg:max-w-none"
+                src="https://www.ims-medical.es/storage/app/uploads/public/5af/029/fe2/thumb_64_1903_591_0_0_auto.jpg"
                 alt="Inbox user interface"
+=======
+                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                src="https://www.intramed.net/UserFiles/vinetas/95357.jpg"
+                alt="Image"
+>>>>>>> e21a43b (Actualizacion de textos v2)
               />
             </div>
           </div>
@@ -66,18 +79,25 @@ export default function Filosophy() {
                 </span>
               </div>
               <div className="mt-6">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Better understand your customers</h2>
+<<<<<<< HEAD
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Vision / Objetivos</h2>
                 <p className="mt-4 text-lg text-gray-500">
-                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
-                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
-                  viverra dui tellus ornare pharetra.
+                Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+                Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+                Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
+=======
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Vision y Objetivos</h2>
+                <p className="mt-4 text-lg text-gray-500">
+                Texto texto texto texto texto Texto texto texto texto texto Texto texto texto texto texto Texto texto texto texto texto
+                Texto texto texto texto texto Texto texto texto texto texto
+>>>>>>> e21a43b (Actualizacion de textos v2)
                 </p>
                 <div className="mt-6">
                   <a
                     href="#"
                     className="inline-flex rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                   >
-                    Get started
+                    Ver mas
                   </a>
                 </div>
               </div>
@@ -87,7 +107,7 @@ export default function Filosophy() {
             <div className="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
               <img
                 className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="https://tailwindui.com/img/component-images/inbox-app-screenshot-2.jpg"
+                src="https://www.ims-medical.es/storage/app/uploads/public/5af/029/fe2/thumb_64_1903_591_0_0_auto.jpg"
                 alt="Customer profile user interface"
               />
             </div>
