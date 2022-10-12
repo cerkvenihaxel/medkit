@@ -34,27 +34,8 @@ export function Hero() {
         siempre.
       </h1>
             </div>
-      
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">
-        Most bookkeeping software is accurate, but hard to use. We make the
-        opposite trade-off, and hope you don’t get audited.
-      </p>
-      <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="/register">Más información</Button>
-        <Button
-          href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-          variant="outline"
-        >
-          <svg
-            aria-hidden="true"
-            className="h-3 w-3 flex-none fill-blue-600 group-active:fill-current"
-          >
-            <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
-          </svg>
-          <span className="ml-3">Ver video</span>
-        </Button>
-      </div>
-      <div className="mt-36 lg:mt-44">
+   
+      <div className="mt-64 lg:mt-36">
         <p className="font-display text-base text-slate-900">
           Confiamos en las mejores empresas
         </p>
