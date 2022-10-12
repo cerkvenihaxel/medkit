@@ -11,7 +11,7 @@ import logoTuple from '@/images/logos/tuple.svg'
 
 export function Hero() {
   return (
-    <Container className="pt-20 pb-44 text-center lg:pt-32">
+    <Container className="pt-12 pb-44 text-center lg:pt-12">
       <div className="absolute inset-0">
               <img className="h-full w-full object-cover blur-sm" src="/medics.png" alt="People working on laptops"/>
               <div className="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>

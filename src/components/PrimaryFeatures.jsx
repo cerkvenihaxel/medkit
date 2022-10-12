@@ -57,11 +57,11 @@ export function PrimaryFeatures() {
   }, [])
 
   return (
-    <div className='p-36 items-center mx-auto my-0 shadow-slate-700'>
+    <div className='pt-24 items-center mx-auto my-0 shadow-slate-700'>
     <section
       id="features"
-      aria-label="Features for running your books"
-      className="relative -mt-24 rounded-3xl overflow-hidden bg-blue-600 sm:py-32"
+      aria-label="Features llamando al doctor"
+      className="relative mt-4 overflow-hidden bg-blue-600 sm:py-32"
     >
       <Image
         className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
@@ -73,7 +73,7 @@ export function PrimaryFeatures() {
       />
       <Container className=" flex relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display text-5xl tracking-tight text-white sm:text-4xl md:text-7xl">
+          <h2 className="font-display pt-24  ml-4 text-5xl tracking-tight text-white sm:text-4xl md:text-9xl">
             Llamando al doctor
           </h2>
 
