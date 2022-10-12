@@ -11,18 +11,18 @@ const testimonials = [
   [
     {
       content:
-        'TaxPal is so easy to use I can’t help but wonder if it’s really doing the things the government expects me to do.',
+        'MedkiT es una empresa que se preocupa por sus clientes, siempre están dispuestos a ayudar y a resolver cualquier duda que tengamos. Los productos que ofrecen son de excelente calidad y tienen un excelente servicio postventa.',
       author: {
-        name: 'Sheryl Berge',
+        name: 'Cliente satisfecho',
         role: 'CEO at Lynch LLC',
         image: avatarImage1,
       },
     },
     {
       content:
-        'I’m trying to get a hold of someone in support, I’m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.',
+      'MedkiT es una empresa que se preocupa por sus clientes, siempre están dispuestos a ayudar y a resolver cualquier duda que tengamos. Los productos que ofrecen son de excelente calidad y tienen un excelente servicio postventa.',
       author: {
-        name: 'Amy Hahn',
+        name: 'Cliente satisfecho',
         role: 'Director at Velocity Industries',
         image: avatarImage4,
       },
@@ -31,18 +31,18 @@ const testimonials = [
   [
     {
       content:
-        'The best part about TaxPal is every time I pay my employees, my bank balance doesn’t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.',
+      'MedkiT es una empresa que se preocupa por sus clientes, siempre están dispuestos a ayudar y a resolver cualquier duda que tengamos. Los productos que ofrecen son de excelente calidad y tienen un excelente servicio postventa.',
       author: {
-        name: 'Leland Kiehn',
+        name: 'Cliente satisfecho',
         role: 'Founder of Kiehn and Sons',
         image: avatarImage5,
       },
     },
     {
       content:
-        'There are so many things I had to do with my old software that I just don’t do at all with TaxPal. Suspicious but I can’t say I don’t love it.',
+      'MedkiT es una empresa que se preocupa por sus clientes, siempre están dispuestos a ayudar y a resolver cualquier duda que tengamos. Los productos que ofrecen son de excelente calidad y tienen un excelente servicio postventa.',
       author: {
-        name: 'Erin Powlowski',
+        name: 'Cliente satisfecho',
         role: 'COO at Armstrong Inc',
         image: avatarImage2,
       },
@@ -51,18 +51,18 @@ const testimonials = [
   [
     {
       content:
-        'I used to have to remit tax to the EU and with TaxPal I somehow don’t have to do that anymore. Nervous to travel there now though.',
+      'MedkiT es una empresa que se preocupa por sus clientes, siempre están dispuestos a ayudar y a resolver cualquier duda que tengamos. Los productos que ofrecen son de excelente calidad y tienen un excelente servicio postventa.',
       author: {
-        name: 'Peter Renolds',
+        name: 'Cliente satisfecho',
         role: 'Founder of West Inc',
         image: avatarImage3,
       },
     },
     {
       content:
-        'This is the fourth email I’ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.',
+      'MedkiT es una empresa que se preocupa por sus clientes, siempre están dispuestos a ayudar y a resolver cualquier duda que tengamos. Los productos que ofrecen son de excelente calidad y tienen un excelente servicio postventa.',
       author: {
-        name: 'Amy Hahn',
+        name: 'Cliente satisfecho',
         role: 'Director at Velocity Industries',
         image: avatarImage4,
       },
@@ -88,12 +88,10 @@ export function Testimonials() {
       <Container>
         <div className="mx-auto max-w-2xl md:text-center">
           <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Loved by businesses worldwide.
+            Lo que nuestros clientes dicen
           </h2>
           <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Our software is so simple that people can’t help but fall in love
-            with it. Simplicity is easy when you just skip tons of
-            mission-critical features.
+           Nuestro equipo de soporte está disponible las 24 horas del día, los 7 días de la semana para ayudarlo con cualquier pregunta que pueda tener.
           </p>
         </div>
         <ul

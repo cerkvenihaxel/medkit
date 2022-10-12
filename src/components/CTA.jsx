@@ -24,7 +24,7 @@ Hacer bien nuestro trabajo incluye abarcar multiples terapias para asistir a las
                 href="#"
                 className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-5 py-3 text-base font-medium text-gray-900 hover:bg-gray-50"
               >
-                Visit the help center
+                Mirá nuestro catálogo
                 <ArrowTopRightOnSquareIcon className="-mr-1 ml-3 h-5 w-5 text-gray-400" aria-hidden="true" />
               </a>
             </div>
