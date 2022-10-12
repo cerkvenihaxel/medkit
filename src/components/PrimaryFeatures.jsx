@@ -57,10 +57,11 @@ export function PrimaryFeatures() {
   }, [])
 
   return (
+    <div className='p-36 items-center mx-auto my-0 shadow-slate-700'>
     <section
       id="features"
       aria-label="Features for running your books"
-      className="relative overflow-hidden bg-blue-600 pt-20 pb-28 sm:py-32"
+      className="relative mt-24 rounded-3xl overflow-hidden bg-blue-600 sm:py-32"
     >
       <Image
         className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
@@ -82,5 +83,6 @@ export function PrimaryFeatures() {
         
       </Container>
     </section>
+    </div>
   )
 }

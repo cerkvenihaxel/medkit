@@ -11,13 +11,13 @@ import logoTuple from '@/images/logos/tuple.svg'
 
 export function Hero() {
   return (
-    <Container className="pt-20 pb-16 text-center lg:pt-32">
+    <Container className="pt-20 pb-44 text-center lg:pt-32">
       <div className="absolute inset-0">
               <img className="h-full w-full object-cover blur-sm" src="/medics.png" alt="People working on laptops"/>
               <div className="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
             </div>
             <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-              <img src="/Medkit.png" className='mx-auto max-w-2xl top-0 mb-12 -mt-32 w-80' alt="Medkit logo" />
+              <img src="https://i.imgur.com/K1orFSk.png" className='mx-auto max-w-2xl top-0 mb-12 -mt-32 w-80' alt="Medkit logo" />
             <h1 className="mx-auto max-w-4xl font-display text-5xl z-10 font-medium tracking-tight text-white sm:text-7xl">
         Tu salud{' '}
         <span className="relative whitespace-nowrap text-red-800">
@@ -35,41 +35,7 @@ export function Hero() {
       </h1>
             </div>
    
-      <div className="mt-64 lg:mt-36">
-        <p className="font-display text-base text-slate-900">
-          Confiamos en las mejores empresas
-        </p>
-        <ul
-          role="list"
-          className="mt-8 flex items-center justify-center gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0"
-        >
-          {[
-            [
-              { name: 'Transistor', logo: logoTransistor },
-              { name: 'Tuple', logo: logoTuple },
-              { name: 'StaticKit', logo: logoStaticKit },
-            ],
-            [
-              { name: 'Mirage', logo: logoMirage },
-              { name: 'Laravel', logo: logoLaravel },
-              { name: 'Statamic', logo: logoStatamic },
-            ],
-          ].map((group, groupIndex) => (
-            <li key={groupIndex}>
-              <ul
-                role="list"
-                className="flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0"
-              >
-                {group.map((company) => (
-                  <li key={company.name} className="flex">
-                    <Image src={company.logo} alt={company.name} unoptimized />
-                  </li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
-      </div>
+    
     </Container>
   )
 }

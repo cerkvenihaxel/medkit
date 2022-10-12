@@ -8,7 +8,6 @@ import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import Example from '@/components/Products'
 import CTA from '@/components/CTA'
 import Filosophy from '@/components/Filosophy'
-import { Testimonials } from '@/components/Testimonials'
 import { CallToAction } from '@/components/CallToAction'
 
 export default function Home() {
@@ -26,7 +25,6 @@ export default function Home() {
         <Example />
         <CTA />
         <Filosophy />
-        <Testimonials />
         <CallToAction />
       </main>
       <Footer />
