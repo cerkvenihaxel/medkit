@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import Image from 'next/future/image'
 import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
+import Lists from './List'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
@@ -69,46 +70,14 @@ export function PrimaryFeatures() {
         height={1636}
         unoptimized
       />
-      <Container className="relative">
+      <Container className=" flex relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
+          <h2 className="font-display text-5xl tracking-tight text-white sm:text-4xl md:text-7xl">
             Llamando al doctor
           </h2>
-<<<<<<< HEAD
-          <p className="mt-12 text-lg tracking-tight text-blue-100">
-          El servicio que MedkiT dispone para vos, donde vas a encontrar atención médica por videollamada las 24 horas, todos los días del año.
-          </p>
-          <div classnName="container mx-auto sm:px-6 lg:px-8">
-          <p className="mt-6 text-lg tracking-tight md:flex  text-blue-100">
-=======
-          <p className="mt-6 text-2xl tracking-tight text-blue-100">
-          El servicio que MedkiT dispone para vos, donde vas a encontrar atención médica por videollamada las 24 horas, todos los días del año.
-          </p>
-          <div classnName="container mx-auto sm:px-6 lg:px-8">
-          <p className="mt-6 text-xl tracking-tight md:text-center md:flex  text-blue-100">
->>>>>>> e21a43b (Actualizacion de textos v2)
-          Un servicio de atención médica por videollamada las 24 horas, todos los días del año.
-¿Querés contratar Llamando al Doctor?</p>
-            <li className=" mt-10 text-left -right-2.5 text-amber-200">
-            Recetas medicas, órdenes de estudios y constancias de atención digitales
-            </li>
-            <li className='mt-10 text-left -right-2.5 text-amber-200'>
-            Profesionales de primer nivel pertenecientes a reconocidas instituciones de salud
-            </li> 
-            <li className='mt-10 text-left -right-2.5 text-amber-200'>
-            Videconsultas a través de la App y plataforma Web
-            </li> 
-            <li className='mt-10 text-left -right-2.5 text-amber-200'>
-            Múltiples especialidades médicas
-            </li> 
-          <img className="mt-8 items-center flex -z-10" src="/homeapp.png" alt="" />
-          <button
-        type="button"
-        className="items-center px-5 py-2 border border-transparent text-base font-medium rounded-full shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-      >
-        Más información.
-      </button>
-      </div>
+
+          <Lists />
+          
         </div>
         
       </Container>
