@@ -5,7 +5,7 @@ const items = [
     , description: 'El servicio que MedkiT dispone para vos, donde vas a encontrar atención médica por videollamada las 24 horas, todos los días del año.'
     , image: '/homeapp.png'
     , imageAlt: 'Llamando al doctor APP'
-    , imageWidth: 200
+    , imageWidth: 300
     , imageHeight: 300
     , imagePosition: 'right'
     , listFeatures: [
