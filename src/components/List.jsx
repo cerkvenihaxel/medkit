@@ -21,7 +21,7 @@ const items = [
 
 export default function Lists() {
   return (
-    <ul role="list" className="mt-24 space-y-3">
+    <ul role="list" className="mt-0 space-y-3">
       {items.map((item) => (
         <li key={item.id} className="overflow-hidden inline-block bg-transparent px-6 py-4">
           {item.image && (
