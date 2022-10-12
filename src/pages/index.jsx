@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Medkit SRL</title>
+        <title>Medkit Health</title>
         <link rel="icon" href="/MedkiT.png" />
       </Head>
       <Header />

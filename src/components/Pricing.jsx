@@ -110,7 +110,7 @@ export function Pricing() {
             adecuados para vos.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            diferentes opciones para cada necesidad
+            Nuestras diferentes opciones para cada necesidad.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
@@ -131,7 +131,7 @@ export function Pricing() {
             featured
             name="Plata"
             price="$3.800"
-            description="Tu salud y mas"
+            description="Tu salud y más"
             href="/register"
             features={[
               'Descripcion 1',
@@ -144,7 +144,7 @@ export function Pricing() {
           <Plan
             name="Enterprise"
             price="$4.970"
-            description="Salud, belleza y mas"
+            description="Salud, belleza y más"
             href="/register"
             features={[
               'Descripcion 1',
