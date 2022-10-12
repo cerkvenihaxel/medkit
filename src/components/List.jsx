@@ -24,7 +24,7 @@ const items = [
         {items.map((item) => (
           <li key={item.id} className="overflow-hidden inline-block bg-transparent px-6 py-4">
             {item.image && (
-                <div class="mt-12 content flex py-2">
+                <div className="mt-12 content flex py-2">
             <img
                         
                         src={item.image}
