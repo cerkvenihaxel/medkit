@@ -1,5 +1,5 @@
 export function Logo(props) {
   return (
-   <img src="logomedkit.png" alt="" {...props} />
+   <img src="https://i.imgur.com/K1orFSk.png" alt="" {...props} />
   )
 }
