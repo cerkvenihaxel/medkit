@@ -8,7 +8,7 @@ export default function Filosophy() {
           <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
             <div>
               <div>
-                <span className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-600">
+                <span className="flex h-12 w-12 items-center justify-center rounded-md bg-red-600">
                   <InboxIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
@@ -65,7 +65,7 @@ export default function Filosophy() {
           <div className="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
             <div>
               <div>
-                <span className="flex h-12 w-12 items-center justify-center rounded-md bg-indigo-600">
+                <span className="flex h-12 w-12 items-center justify-center rounded-md bg-red-600">
                   <SparklesIcon className="h-6 w-6 text-white" aria-hidden="true" />
                 </span>
               </div>
@@ -83,7 +83,7 @@ export default function Filosophy() {
                 <div className="mt-6">
                   <a
                     href="#"
-                    className="inline-flex rounded-md border border-transparent bg-indigo-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
+                    className="inline-flex rounded-md border border-transparent bg-red-600 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-indigo-700"
                   >
                     Ver mas
                   </a>

@@ -73,7 +73,7 @@ export function PrimaryFeatures() {
       />
       <Container className=" flex relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display pt-24  ml-4 text-5xl tracking-tight text-white sm:text-4xl md:text-9xl">
+          <h2 className="font-display pt-24 px-24 ml-4 text-5xl tracking-tight text-white sm:text-4xl md:text-9xl">
             Llamando al doctor
           </h2>
 
