@@ -17,7 +17,7 @@ export default function Contact() {
                     </div>
                     <div className="mt-1">
                       <dt className="sr-only">Phone number</dt>
-                      <Link href="wa.me/34666666666">
+                      <Link href="https://wa.me/5493804375460/?text=Hola%20quiero%20mas%20informacion%20de%20MedkiT%20" target="_blank">
                       <dd>📞 +54 (380) 154-375460</dd>
                     </Link>
                     </div>
