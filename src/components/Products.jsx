@@ -1,29 +1,48 @@
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
+
 const products = [
   {
     id: 1,
-    name: 'Fusion',
-    category: 'UI Kit',
+    name: 'Codera',
+    category: 'Profit',
     href: '#',
-    price: '$49',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-05-related-product-01.jpg',
+    imageSrc: 'https://profit.ptm.global/uploads/productos/Profit%20pack%20C1.jpg',
     imageAlt:
-      'Payment application dashboard screenshot with transaction table, financial highlights, and main clients on colorful purple background.',
+      'Imagen de productos de órtesis',
   },
-  // More products...
+
+  {
+    id: 2,
+    name: 'Corrector de postura regulable. Elástlco',
+    category: 'Wellbrace',
+    href: '#',
+    imageSrc: 'https://wellbrace.ptm.global/uploads/productos/Wellbrace%20pack%20630.jpg',
+    imageAlt:
+      'Imagen de productos de órtesis',
+  },
+
+  {
+    id: 3,
+    name: 'Collar cervical de espuma',
+    category: 'Wellbrace',
+    href: '#',
+    imageSrc: 'https://wellbrace.ptm.global/uploads/productos/Wellbrace%20pack%204508.jpg',
+    imageAlt:
+
+      'Imagen de productos de órtesis',
+  },
+
+  {
+    id: 4,
+    name: 'Codera elástica',
+    category: 'Bodycare',
+    href: '#',
+    imageSrc: 'https://www.bodycare.com.ar/productos/BC1500A/g/BC1500A_1%20copia.jpg',
+    imageAlt:
+
+      'Imagen de productos de órtesis',
+  },
+  
+  
 ]
 
 export default function Example() {
@@ -33,7 +52,7 @@ export default function Example() {
         <div className="flex items-center justify-between space-x-4">
           <h1 className="text-lg font-medium text-gray-900">Nuestros productos</h1>
           <a href="#" className="whitespace-nowrap text-sm font-medium text-red-600 hover:text-indigo-500">
-            View all
+            Ver más
             <span aria-hidden="true"> &rarr;</span>
           </a>
         </div>
@@ -44,7 +63,7 @@ export default function Example() {
                 <img src={product.imageSrc} alt={product.imageAlt} className="object-cover object-center" />
                 <div className="flex items-end p-4 opacity-0 group-hover:opacity-100" aria-hidden="true">
                   <div className="w-full rounded-md bg-white bg-opacity-75 py-2 px-4 text-center text-sm font-medium text-gray-900 backdrop-blur backdrop-filter">
-                    View Product
+                    Ver producto
                   </div>
                 </div>
               </div>
@@ -55,7 +74,6 @@ export default function Example() {
                     {product.name}
                   </a>
                 </h3>
-                <p>{product.price}</p>
               </div>
               <p className="mt-1 text-sm text-gray-500">{product.category}</p>
             </div>

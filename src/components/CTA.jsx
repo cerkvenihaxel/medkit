@@ -13,7 +13,7 @@ export default function CTA() {
       <div className="relative mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
         <div className="md:ml-auto md:w-1/2 md:pl-10">
           <h2 className="text-lg font-semibold text-gray-300">ORTOPEDIA</h2>
-          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Servicio de Ortesis a medida y fisioterapia</p>
+          <p className="mt-2 text-3xl font-bold tracking-tight text-white sm:text-4xl">Servicio de Órtesis a medida y fisioterapia</p>
           <p className="mt-3 text-lg text-gray-300">
           Los miembros de nuestro equipo cuentan con la experiencia y están capacitados para trabajar en una amplia gama de condiciones. 
 Hacer bien nuestro trabajo incluye abarcar multiples terapias para asistir a las necesidades de los pacientes y trabajar hacia la rehabilitación e insersion de una mejor calidad de vida. 
