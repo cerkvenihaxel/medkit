@@ -9,6 +9,7 @@ import Example from '@/components/Products'
 import CTA from '@/components/CTA'
 import Filosophy from '@/components/Filosophy'
 import { CallToAction } from '@/components/CallToAction'
+import Contact from '@/components/Contact'
 
 export default function Home() {
   return (
@@ -21,11 +22,10 @@ export default function Home() {
       <main>
         <Hero />
         <PrimaryFeatures />
-        <Pricing />
         <Example />
         <CTA />
-        <Filosophy />
         <CallToAction />
+        <Contact />
       </main>
       <Footer />
     </>
