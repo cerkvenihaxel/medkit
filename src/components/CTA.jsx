@@ -2,8 +2,8 @@ import { ArrowTopRightOnSquareIcon } from '@heroicons/react/20/solid'
 
 export default function CTA() {
   return (
-    <div className="relative bg-gray-800">
-      <div className="h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
+    <div className="relative bg-red-800">
+      <div className="h-56 bg-red-800 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <img
           className="h-full w-full object-cover"
           src="https://images.unsplash.com/photo-1584515933487-779824d29309?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
