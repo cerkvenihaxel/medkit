@@ -10,16 +10,16 @@ function Calling() {
   return (
     <section
       className={clsx(
-        'flex flex-col pt-12 rounded-3xl px-6 sm:px-8 order-first bg-transparent py-8 lg:order-none'
+        'flex flex-col rounded-3xl px-6 sm:px-8 order-first bg-transparent py-8 lg:order-none'
       )}
     >
 
    
       <div className="flex flex-col justify-center items-center container mx-auto sm:px-6 lg:px-8">
-      <div className="mt-4 md:mt-12 content md:flex py-2">
+      <div className=" container md:flex ">
 
-      <img src="/homeapp.png" alt="Medkit" className='w-3/2justify-center mx-auto items-center md:w-1/2'/>
-      <p className="text-xl md:pt-44 pt-0 tracking-tight md:text-center md:flex  text-blue-100 md:text-2xl">
+      <img src="/lad1.png" alt="Medkit" className='w-1/2  md:w-1/2 md:h-1/2 justify-center mx-auto items-center'/>
+      <p className="text-xl pt-12 md:pt-0 tracking-tight md:text-center md:flex text-gray-700 md:text-xl">
       Un servicio de atención médica por videollamada las 24 horas, todos los días del año.
                   ¿Querés contratar Llamando al Doctor?
 
@@ -34,12 +34,12 @@ function Calling() {
      
       <Button
         href="#"
-        variant={'solid'}
-        color="white"
+        variant="solid"
+        color="pink"
         className="mt-8"
         aria-label={`Accede al plan  por el precio completando los siguientes datos`}
       >
-        Acceder
+        Más información
       </Button>
     </section>
   )

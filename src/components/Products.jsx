@@ -13,65 +13,55 @@
   ```
 */
 const products = [
-    {
-      id: 1,
-      name: 'Órtesis',
-      href: '#',
-      price: '',
-      description: '+100 artículos',
-      imageSrc: 'https://images.unsplash.com/photo-1597764690523-15bea4c581c9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80',
-      imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
-    },
-    {
-      id: 2,
-      name: 'Silla de ruedas',
-      href: '#',
-      price: ' ',
-      description: 'Walnut',
-      imageSrc: 'https://www.silfab.com.ar/media/catalog/product/cache/1/image/767x767/9df78eab33525d08d6e5fb8d27136e95/s/3/s3010-41_1.jpg',
-      imageAlt: 'Paper card sitting upright in walnut card holder on desk.',
-    },
-    {
-      id: 3,
-      name: 'Correctores de postura',
-      href: '#',
-      price: '',
-      description: 'Correctores de postura',
-      imageSrc: 'https://wellbrace.ptm.global/uploads/productos/Wellbrace%20pack%20305.jpg',
-      imageAlt: 'Textured gray felt pouch for paper cards with snap button flap and elastic pen holder loop.',
-    },
-    // More products...
-  ]
-  
-  export default function Example() {
-    return (
-      <div className="bg-white">
-        <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-          <h2 id="products-heading" className="sr-only">
-            Products
-          </h2>
-  
-          <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-            <h1 className="font-display text-3xl tracking-tight text-black sm:text-4xl md:text-5xl">Productos principales</h1>
-            {products.map((product) => (
-              <a key={product.id} href={product.href} className="group">
-                <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg sm:aspect-w-2 sm:aspect-h-3">
-                  <img
-                    src={product.imageSrc}
-                    alt={product.imageAlt}
-                    className="h-full w-full object-cover object-center group-hover:opacity-75"
-                  />
+  {
+    id: 1,
+    name: 'Fusion',
+    category: 'UI Kit',
+    href: '#',
+    price: '$49',
+    imageSrc: 'https://tailwindui.com/img/ecommerce-images/product-page-05-related-product-01.jpg',
+    imageAlt:
+      'Payment application dashboard screenshot with transaction table, financial highlights, and main clients on colorful purple background.',
+  },
+  // More products...
+]
+
+export default function Example() {
+  return (
+    <div className="bg-white">
+      <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+        <div className="flex items-center justify-between space-x-4">
+          <h1 className="text-lg font-medium text-gray-900">Nuestros productos</h1>
+          <a href="#" className="whitespace-nowrap text-sm font-medium text-red-600 hover:text-indigo-500">
+            View all
+            <span aria-hidden="true"> &rarr;</span>
+          </a>
+        </div>
+        <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4">
+          {products.map((product) => (
+            <div key={product.id} className="group relative">
+              <div className="aspect-w-4 aspect-h-3 overflow-hidden rounded-lg bg-gray-100">
+                <img src={product.imageSrc} alt={product.imageAlt} className="object-cover object-center" />
+                <div className="flex items-end p-4 opacity-0 group-hover:opacity-100" aria-hidden="true">
+                  <div className="w-full rounded-md bg-white bg-opacity-75 py-2 px-4 text-center text-sm font-medium text-gray-900 backdrop-blur backdrop-filter">
+                    View Product
+                  </div>
                 </div>
-                <div className="mt-4 flex items-center justify-between text-base font-medium text-gray-900">
-                  <h3>{product.name}</h3>
-                  <p>{product.price}</p>
-                </div>
-                <p className="mt-1 text-sm italic text-gray-500">{product.description}</p>
-              </a>
-            ))}
-          </div>
+              </div>
+              <div className="mt-4 flex items-center justify-between space-x-8 text-base font-medium text-gray-900">
+                <h3>
+                  <a href="#">
+                    <span aria-hidden="true" className="absolute inset-0" />
+                    {product.name}
+                  </a>
+                </h3>
+                <p>{product.price}</p>
+              </div>
+              <p className="mt-1 text-sm text-gray-500">{product.category}</p>
+            </div>
+          ))}
         </div>
       </div>
-    )
-  }
-  
+    </div>
+  )
+}

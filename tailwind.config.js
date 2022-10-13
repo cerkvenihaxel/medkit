@@ -1,3 +1,4 @@
+const { DocumentArrowDownIcon } = require('@heroicons/react/20/solid')
 const defaultTheme = require('tailwindcss/defaultTheme')
 
 /** @type {import('tailwindcss').Config} */
@@ -19,6 +20,7 @@ module.exports = {
       '8xl': ['6rem', { lineHeight: '1' }],
       '9xl': ['8rem', { lineHeight: '1' }],
     },
+  
     extend: {
       borderRadius: {
         '4xl': '2rem',

@@ -6,6 +6,7 @@ import backgroundImage from '@/images/background-call-to-action.jpg'
 
 export function CallToAction() {
   return (
+    <div className='pt-4'>
     <section
       id="get-started-today"
       className="relative overflow-hidden bg-gray-600 py-32"
@@ -32,5 +33,6 @@ export function CallToAction() {
         </div>
       </Container>
     </section>
+    </div>
   )
 }

@@ -11,38 +11,12 @@ import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
 
-/* const features = [
-  {
-    title: 'Payroll',
-    description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
-  },
-  {
-    title: 'Claim expenses',
-    description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
-  },
-  {
-    title: 'VAT handling',
-    description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
-  },
-  {
-    title: 'Reporting',
-    description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
-  },
-]
-*/ 
+
 export function PrimaryFeatures() {
   let [tabOrientation, setTabOrientation] = useState('horizontal')
 
   useEffect(() => {
-    let lgMediaQuery = window.matchMedia('(min-width: 1024px)')
+    let lgMediaQuery = window.matchMedia('(min-width: 768px)')
 
     function onMediaQueryChange({ matches }) {
       setTabOrientation(matches ? 'vertical' : 'horizontal')
@@ -57,25 +31,16 @@ export function PrimaryFeatures() {
   }, [])
 
   return (
-    <div className='pt-24 items-center mx-auto my-0 shadow-slate-700'>
+    <div className='pt-12 bg-gray-200 items-center shadow-slate-700'>
     <section
       id="features"
       aria-label="Features llamando al doctor"
-      className="relative mt-4 overflow-hidden bg-blue-600 sm:py-32"
+      className="relative overflow-hidden sm:py-32"
     >
-      <Image
-        className="absolute top-1/2 left-1/2 max-w-none translate-x-[-44%] translate-y-[-42%]"
-        src={backgroundImage}
-        alt=""
-        width={2245}
-        height={1636}
-        unoptimized
-      />
+     
       <Container className=" flex relative">
-        <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
-          <h2 className="font-display pt-24 px-24 ml-4 text-5xl tracking-tight text-white sm:text-4xl md:text-9xl">
-            Llamando al doctor
-          </h2>
+        <div className="max-w md:text-center xl:max-w-none">
+      
 
           <Lists />
           
