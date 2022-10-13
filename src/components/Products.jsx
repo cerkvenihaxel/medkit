@@ -47,6 +47,9 @@ const products = [
 
 export default function Example() {
   return (
+    <section 
+      id="products"
+      >
     <div className="bg-white">
       <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <div className="flex items-center justify-between space-x-4">
@@ -81,5 +84,6 @@ export default function Example() {
         </div>
       </div>
     </div>
+    </section>
   )
 }

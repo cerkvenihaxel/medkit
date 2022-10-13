@@ -32,15 +32,7 @@ function Calling() {
       </div>
       </div>
      
-      <Button
-        href="#"
-        variant="solid"
-        color="pink"
-        className="mt-8"
-        aria-label={`Accede al plan  por el precio completando los siguientes datos`}
-      >
-        Más información
-      </Button>
+     
     </section>
   )
 }
@@ -53,6 +45,19 @@ export default function Lists() {
     <ul role="list" className="mt-0 space-y-3">
         
     </ul>
+
+    <div class="aspect-w-16 aspect-h-9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/q9_WM00unRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+<Button
+        href="#"
+        variant="solid"
+        color="pink"
+        className="mt-8"
+        aria-label={`Accede al plan  por el precio completando los siguientes datos`}
+      >
+        Más información
+      </Button>
     </Container>
   )
 }

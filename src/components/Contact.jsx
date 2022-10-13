@@ -2,6 +2,9 @@ import Link from 'next/link';
 
 export default function Contact() {
     return (
+      <section 
+        id="contact"
+      >
       <div className="bg-white">
         <div className="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
           <div className="divide-y-2 divide-gray-200">
@@ -43,6 +46,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
+      </section>
     )
   }
   

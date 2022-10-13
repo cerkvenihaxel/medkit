@@ -31,7 +31,7 @@ export function PrimaryFeatures() {
   }, [])
 
   return (
-    <div className='pt-12 bg-gray-200 items-center shadow-slate-700'>
+    <div className='pt-12 pb-12 bg-gray-200 items-center shadow-slate-700'>
     <section
       id="features"
       aria-label="Features llamando al doctor"
@@ -43,6 +43,8 @@ export function PrimaryFeatures() {
       
 
           <Lists />
+
+       
           
         </div>
         
