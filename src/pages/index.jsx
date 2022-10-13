@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <Head>
         <title>Medkit Health</title>
-        <link rel="icon" href="/MedkiT.png" />
+        <link rel="icon" href="/logomedkit.png" />
       </Head>
       <Header />
       <main>
