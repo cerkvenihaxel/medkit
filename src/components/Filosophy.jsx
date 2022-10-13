@@ -48,7 +48,7 @@ export default function Filosophy() {
           <div className="mt-12 sm:mt-16 lg:mt-0">
             <div className="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
               <img
-                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-70 lg:w-auto lg:w-auto lg:max-w-none"
+                className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-70 lg:w-auto lg:max-w-none"
                 src="https://www.ims-medical.es/storage/app/uploads/public/5af/029/fe2/thumb_64_1903_591_0_0_auto.jpg"
                 alt="Inbox user interface"/>
 
