@@ -29,7 +29,7 @@ export function Footer() {
            
           </div>
           <p className="mt-6 text-sm text-slate-500 sm:mt-0">
-            Copyright &copy; {new Date().getFullYear()} MedkiT Health. Todos los derechos reservados
+            Copyright &copy; {new Date().getFullYear()} MedkiT Health. Todos los derechos reservados.
           </p>
         </div>
       </Container>
