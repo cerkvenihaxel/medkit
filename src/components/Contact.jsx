@@ -34,8 +34,10 @@ export default function Contact() {
                 <div>
                   <h3 className="text-lg font-medium leading-6 text-gray-900">La Rioja</h3>
                   <div className="mt-2 text-base text-gray-500">
-                    <p>📍 8 de Diciembre 701</p>
-                    <p className="mt-1">La Rioja, Argentina. CP 5300.</p>
+                    <Link href="https://goo.gl/maps/z9TW98s2orGg3c1r9" target="_blank">
+                    <dd>📍 8 de Diciembre 701</dd>
+                    </Link>
+                    <dd className="mt-1">La Rioja, Argentina. CP 5300.</dd>
                   </div>
                 </div>
               
