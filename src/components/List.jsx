@@ -23,10 +23,10 @@ function Calling() {
       Un servicio de atención médica por videollamada las 24 horas, todos los días del año.
                   ¿Querés contratar Llamando al Doctor?
 
-                  'Recetas medicas, órdenes de estudios y constancias de atención digitales',
-      'Profesionales de primer nivel pertenecientes a reconocidas instituciones de salud',
-      'Videconsultas a través de la App y plataforma Web',
-      'Múltiples especialidades médicas',
+      Recetas medicas, órdenes de estudios y constancias de atención digitales
+      Profesionales de primer nivel pertenecientes a reconocidas instituciones de salud
+      Videconsultas a través de la App y plataforma Web
+      Múltiples especialidades médicas
       </p>
       
       </div>
