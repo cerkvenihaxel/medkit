@@ -35,7 +35,7 @@ export default function Videos() {
           <div className="flex flex-1 flex-col p-4 justify-center">
           <div className="aspect-w-16 aspect-h-9">
 
-          <iframe className="justify-center" width="400" height="315" src={person.imageUrl} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+          <iframe className="justify-center" width="400" height="315" src={person.imageUrl} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>            
         </div>
           <h3 className="mt-6 text-sm font-medium text-gray-900">{person.name}</h3>
             <dl className="mt-1 flex flex-grow flex-col justify-between">
