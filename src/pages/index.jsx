@@ -9,6 +9,7 @@ import Example from '@/components/Products'
 import CTA from '@/components/CTA'
 import Filosophy from '@/components/Filosophy'
 import { CallToAction } from '@/components/CallToAction'
+import Videos from '@/components/VideosSection'
 import Contact from '@/components/Contact'
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <main>
         <Hero />
         <PrimaryFeatures />
+        <Videos />
         <Example />
         <CTA />
         <CallToAction />

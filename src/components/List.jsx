@@ -47,13 +47,15 @@ export default function Lists() {
     </ul>
 
     <div className="aspect-w-16 aspect-h-9">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/q9_WM00unRE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n4SA0HefY-Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
     </div>
+
 <Button
-        href="#"
+        href="https://www.llamandoaldoctor.com/"
         variant="solid"
         color="pink"
         className="mt-8"
+        target="_blank"
         aria-label={`Accede al plan  por el precio completando los siguientes datos`}
       >
         Más información
