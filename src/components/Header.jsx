@@ -77,7 +77,7 @@ function MobileNavigation() {
             as="div"
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-black shadow-xl ring-1 ring-slate-900/5"
           >
-            <MobileNavLink href="#features">Llamando al doctor</MobileNavLink>
+            <MobileNavLink href="#features">Servicios</MobileNavLink>
             <MobileNavLink href="#products">Productos</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="#contact">Contacto</MobileNavLink>
