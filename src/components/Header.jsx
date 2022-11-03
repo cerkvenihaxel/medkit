@@ -98,7 +98,7 @@ export function Header() {
               <Logo className="h-44 w-auto pr-24" />
             </Link>
             <div className="hidden md:flex md:items-center md:pl-16 md:gap-x-6">
-              <NavLink href="#features">Llamando al doctor</NavLink>
+              <NavLink href="#features">Servicios</NavLink>
               <NavLink href="#products">Productos</NavLink>
               <NavLink href="#contact">Contacto</NavLink>
 
