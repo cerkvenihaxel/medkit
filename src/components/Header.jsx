@@ -79,6 +79,7 @@ function MobileNavigation() {
           >
             <MobileNavLink href="#features">Servicios</MobileNavLink>
             <MobileNavLink href="#products">Productos</MobileNavLink>
+            <MobileNavLink href="#proyects">Proyectos</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="#contact">Contacto</MobileNavLink>
           </Popover.Panel>
@@ -90,16 +91,17 @@ function MobileNavigation() {
 
 export function Header() {
   return (
-    <header className="py-10">
+    <header >
       <Container>
         <nav className="relative z-50 flex justify-between">
-          <div className="flex items-center md:gap-x-12">
+          <div className="flex items-center md:gap-x-1">
             <Link href="#" aria-label="Home">
               <Logo className="h-44 w-auto pr-24" />
             </Link>
             <div className="hidden md:flex md:items-center md:pl-16 md:gap-x-6">
-              <NavLink href="#features">Servicios</NavLink>
+              <NavLink href="#services">Servicios</NavLink>
               <NavLink href="#products">Productos</NavLink>
+              <NavLink href="#projects">Proyectos</NavLink>
               <NavLink href="#contact">Contacto</NavLink>
 
             </div>

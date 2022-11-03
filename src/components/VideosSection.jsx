@@ -1,60 +1,93 @@
-import { EnvelopeIcon, PhoneIcon } from '@heroicons/react/20/solid'
-import Divider from './Divider'
+import { InboxIcon, SparklesIcon } from '@heroicons/react/24/outline'
 
-const people = [
-
-    {
-        name: 'Hospital Ship Bahamas',
-        title: '',
-        role:'Hospital Ship',
-        imageUrl:'https://www.youtube.com/embed/noBaBq4Vvl8'
-      },
-
-
-  {
-    name: 'Mobile Hospital Unit',
-    title: '',
-    role:'Mobile Hospital',
-    imageUrl:'https://www.youtube.com/embed/WCIkL4nVX8I'
-
-  },
-
- 
-  // More people...
-]
-
-export default function Videos() {
+export default function Video() {
   return (
-    <div className="mx-auto max-w-7xl pt-12 px-4 sm:px-6 lg:px-8">
-    <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-      {people.map((person) => (
-        <li
-          key={person.email}
-          className="col-span-2 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow"
-        >
-          <div className="flex flex-1 flex-col p-4 justify-center">
-          <div className="aspect-w-16 aspect-h-9">
 
-          <iframe className="justify-center" width="400" height="315" src={person.imageUrl} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>            
+    <section id="projects">
+    <div className="relative overflow-hidden bg-gray-100 pb-32">
+
+
+      <div className="relative">
+      <div className="text-center">
+          <p className="mt-24 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
+            Nuestros proyectos
+          </p>
+         
         </div>
-          <h3 className="mt-6 text-sm font-medium text-gray-900">{person.name}</h3>
-            <dl className="mt-1 flex flex-grow flex-col justify-between">
-              <dt className="sr-only">Title</dt>
-              <dd className="text-sm text-gray-500">{person.title}</dd>
-              <dt className="sr-only">Role</dt>
-              <dd className="mt-3">
-                <span className="rounded-full bg-green-100 px-2 py-1 text-xs font-medium text-green-800">
-                  {person.role}
-                </span>
-              </dd>
-            </dl>
+      
+
+        <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+          <div className="mx-auto max-w-xl px-4 sm:px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
+            <div>
+              <div>
+           
+              </div>
+              <div className="mt-6">
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Hospital Ship Bahamas</h2>
+                <p className="mt-4 text-lg text-gray-500">
+                La base central se encontrará en Exuma Comunity, George Town. El barco iniciará su recorrido desde George Town y realizará diferentes paradas por la zona de Bahamas.                </p>
+                <div className="mt-6">
+                  <a
+                    href="#"
+                    className="inline-flex rounded-md border border-transparent bg-red-700 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-400"
+                  >
+                    Más información
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="mt-8 border-t border-gray-200 pt-6">
+        
+            </div>
           </div>
-          <div>
-          
+          <div className="mt-24">
+            <div className="aspect-w-16 aspect-h-9">
+
+            <iframe className="w-full rounded-xl shadow-xl"
+ width="560" height="315" src="https://www.youtube.com/embed/noBaBq4Vvl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+            </div>
           </div>
-        </li>
-      ))}
-    </ul>
+        </div>
+      </div>
+
+
+      {/* <div className="mt-24">
+        <div className="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+          <div className="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+            <div>
+              
+              <div className="mt-6">
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Better understand your customers</h2>
+                <p className="mt-4 text-lg text-gray-500">
+                  Semper curabitur ullamcorper posuere nunc sed. Ornare iaculis bibendum malesuada faucibus lacinia
+                  porttitor. Pulvinar laoreet sagittis viverra duis. In venenatis sem arcu pretium pharetra at. Lectus
+                  viverra dui tellus ornare pharetra.
+                </p>
+                <div className="mt-6">
+                  <a
+                    href="#"
+                    className="inline-flex rounded-md border border-transparent bg-red-700 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-red-400"
+                  >
+                    Más información
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="mt-24">
+            <div className="aspect-w-16 aspect-h-9">
+
+            <iframe className="w-full rounded-xl shadow-xl"
+ width="560" height="315" src="https://www.youtube.com/embed/noBaBq4Vvl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            
+            </div>
+          </div>
+        </div>
+      </div> */}
     </div>
+    </section>
   )
 }

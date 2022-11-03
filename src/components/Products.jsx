@@ -52,13 +52,18 @@ export default function Example() {
       >
     <div className="bg-white">
       <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
-        <div className="flex items-center justify-between space-x-4">
-          <h1 className="text-lg font-medium text-gray-900">Nuestros productos</h1>
+      <div className="flex items-center justify-between mb-4 space-x-4">
+          <h1 className="text-xl font-medium text-gray-600">Nuestros productos</h1>
           <a href="#" className="whitespace-nowrap text-sm font-medium text-red-600 hover:text-indigo-500">
             Ver más
             <span aria-hidden="true"> &rarr;</span>
+           
           </a>
         </div>
+
+        <hr className="border-gray-200 mb-12"></hr>
+
+
         <div className="mt-6 grid grid-cols-1 gap-x-8 gap-y-8 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-4 ">
           {products.map((product) => (
             <div key={product.id} className="group relative hover:scale-105 ease-in duration-200">

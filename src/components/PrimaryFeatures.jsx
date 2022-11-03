@@ -31,7 +31,7 @@ export function PrimaryFeatures() {
   }, [])
 
   return (
-    <div className='pt-12 pb-12 bg-gradient-to-br from-gray-200 to-gray-100 items-center shadow-slate-700'>
+    <div className='pb-12 items-center shadow-slate-700'>
     <section
       id="features"
       aria-label="Features llamando al doctor"
@@ -39,12 +39,22 @@ export function PrimaryFeatures() {
     >
      
       <Container className=" flex relative">
-        <div className="max-w md:text-center xl:max-w-none">
+        <div className="max-w md:text-center ">
+        <div className="flex items-center justify-between mb-4 space-x-4">
+          <h1 className="text-xl font-medium text-gray-600">Nuestros servicios</h1>
+          <a href="#" className="whitespace-nowrap text-sm font-medium text-red-600 hover:text-indigo-500">
+            Ver más
+            <span aria-hidden="true"> &rarr;</span>
+           
+          </a>
+        </div>
+
+        <hr className="border-gray-200 mb-12"></hr>
       
 
           <Lists />
 
-       
+
           
         </div>
         

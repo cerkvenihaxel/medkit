@@ -11,6 +11,7 @@ import Filosophy from '@/components/Filosophy'
 import { CallToAction } from '@/components/CallToAction'
 import Videos from '@/components/VideosSection'
 import Contact from '@/components/Contact'
+import Services from '@/components/Services'
 
 export default function Home() {
   return (
@@ -19,13 +20,17 @@ export default function Home() {
         <title>Medkit Health</title>
         <link rel="icon" href="/logomedkit.png" />
       </Head>
-      <Header />
       <main>
+        <Header />
         <Hero />
-        <PrimaryFeatures />
-        <Videos />
-        <Example />
+        <Services />
         <CTA />
+        {/* <PrimaryFeatures />
+        <CTA /> */}
+
+        <Example />
+        <Videos />
+
         <CallToAction />
         <Contact />
       </main>
