@@ -12,6 +12,8 @@
   }
   ```
 */
+import { Button } from "./Button"
+
 const features = [
     {
       name: 'Llamando al doctor',
@@ -20,6 +22,7 @@ const features = [
     imageLogo: '/lad1.png',  
     imageSrc: 'https://www.youtube.com/embed/n4SA0HefY-Q',
       imageAlt: 'White canvas laptop sleeve with gray felt interior, silver zipper, and tan leather zipper pull.',
+      url:'https://www.llamandoaldoctor.com/'
     },
     {
       name: 'Mobile Hospital Unit',
@@ -27,7 +30,8 @@ const features = [
       description:
         'Unidad Hospitalaria pensada y acondicionada para llegar a diferentes destinos, con el objetivo de brindar atención médica de calidad a personas que no tienen acceso a servicios de salud.',
       imageSrc: 'https://www.youtube.com/embed/WCIkL4nVX8I',
-      imageAlt: 'Medkit Mobile Hospital Unit',
+      imageAlt: '#',
+      url:''
     },
   ]
   
@@ -64,6 +68,16 @@ const features = [
                 >
                   <img src={feature.imageLogo} alt="Logo" className="lg:col-span-6 w-96" />
                   <p className="mt-2 text-sm text-gray-500">{feature.description}</p>
+                  <Button
+        href={feature.url}
+        variant="solid"
+        color="red"
+        className="mt-8"
+        target="_blank"
+        aria-label={`Accede al plan  por el precio completando los siguientes datos`}
+      >
+        Más información
+      </Button>
                 </div>
                 <div
                   className={classNames(
