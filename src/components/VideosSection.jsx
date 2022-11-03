@@ -44,7 +44,7 @@ export default function Video() {
             <div className="aspect-w-16 aspect-h-9">
 
             <iframe className="w-full rounded-xl shadow-xl"
- width="560" height="315" src="https://www.youtube.com/embed/noBaBq4Vvl8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ width="560" height="315" src="https://www.youtube.com/embed/noBaBq4Vvl8" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
             
             </div>
