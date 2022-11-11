@@ -24,13 +24,10 @@ export default function Home() {
         <Header />
         <Hero />
         <Services />
-        <CTA />
         {/* <PrimaryFeatures />
         <CTA /> */}
-
-        <Example />
         <Videos />
-
+        <Example />
         <CallToAction />
         <Contact />
       </main>
