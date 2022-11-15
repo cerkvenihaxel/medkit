@@ -29,7 +29,7 @@ const features = [
       imageLogo: '/mhulogo.png',
       description:
         'Unidad Hospitalaria pensada y acondicionada para llegar a diferentes destinos, con el objetivo de brindar atención médica de calidad a personas que no tienen acceso a servicios de salud cercanos.',
-      imageSrc: 'https://www.youtube.com/embed/WCIkL4nVX8I',
+      imageSrc: 'https://www.youtube.com/embed/DlBnUC__jXI',
       imageAlt: '#',
       url:''
     },
